@@ -106,8 +106,8 @@ header{
     width: 100%;
     background-image: url(images/bg-header-desktop.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 0 -10rem;
+    background-size: 100%;
+    background-position: top;
     padding-bottom: 10rem;
 }
 
@@ -151,4 +151,65 @@ header p{
     background: var(--Light_Blue);
     margin-left: 0.5rem;
     border-bottom: 3px solid hsl(233, 94%, 58%);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.container .desktop_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.desktop_section .title_paragraph{
+    max-width: 60ch;
+    text-align: center;
+    margin: 1rem 0 4rem;
+}
+
+.desktop_section .computer{
+    display: flex;
+    width: 100%;
+    margin-bottom: 10rem;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 0;
+}
+
+.right .sub_section{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-bottom: 3rem;
+}
+
+.right .sub_section h1{
+    font-size: 1.5rem;
+    width: fit-content;
+}
+
+.right .sub_section p{
+    max-width: 35ch;
+    font-size: 15px;
+    margin-top: 0.7rem;
+}
+
+.left{
+    position: relative;
+    right: 10rem;
+    width: 60%;
+}
+
+.left img{
+    width: 100%;
 }
