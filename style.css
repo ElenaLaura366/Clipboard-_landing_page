@@ -230,3 +230,77 @@ header p{
 .mobile_section div{
     margin: 5rem 0;
 }
+
+.banner_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.banner_section .tools{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 32px;
+    grid-row-gap: 0px;
+    padding: 4rem 10rem;
+    text-align: center;
+}
+
+.first { 
+    grid-area: 1 / 1 / 2 / 2; 
+}
+
+.second { 
+    grid-area: 1 / 2 / 2 / 3; 
+}
+
+.third { 
+    grid-area: 1 / 3 / 2 / 4; 
+}
+
+.tools img{
+    margin: 0 auto;
+}
+
+.tools p{
+    font-size: 17px;
+}
+
+.recomandation{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 32px;
+    grid-row-gap: 0px;
+    width: 100%;
+    padding: 5rem 10rem;
+}
+
+.google { 
+    grid-area: 1 / 1 / 2 / 2; 
+}
+
+.imb { 
+    grid-area: 1 / 2 / 2 / 3; 
+}
+
+.microsoft { 
+    grid-area: 1 / 3 / 2 / 4; 
+}
+
+.hp { 
+    grid-area: 1 / 4 / 2 / 5; 
+}
+
+.vector-graphics { 
+    grid-area: 1 / 5 / 2 / 6; 
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
