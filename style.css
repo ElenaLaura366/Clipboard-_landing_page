@@ -264,8 +264,9 @@ header p{
     margin: 0 auto;
 }
 
-.tools p{
+.banner_section p{
     font-size: 17px;
+    margin-top: 1rem;
 }
 
 .tools h1{
@@ -306,5 +307,12 @@ header p{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
+
+.first div, .second div, .third div{
+    margin-bottom: 2rem;
+    width: 3rem;
+    height: 3rem;
+}
+
+/* centreaza logourile*/
