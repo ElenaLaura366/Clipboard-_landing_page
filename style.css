@@ -213,3 +213,20 @@ header p{
 .left img{
     width: 100%;
 }
+
+.mobile_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile_section p{
+    max-width: 60ch;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.mobile_section div{
+    margin: 5rem 0;
+}
