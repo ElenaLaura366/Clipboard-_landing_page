@@ -388,7 +388,7 @@ footer{
     margin: auto 0;
 }
 
-.media a{
+.media i{
     color: var(--Dark_Grayish_Blue);
     margin-right: 1rem;
 }
@@ -406,7 +406,7 @@ footer{
     font-size: 2rem;
 }
 
-.media a i:hover{
+.media i:hover{
     color: var(--Strong_Cyan);
 }
 
@@ -541,7 +541,7 @@ footer{
         margin-bottom: 1.5rem;
     }
 
-    .media a {
+    .media i {
         margin-right: 2rem;
     }
 }
