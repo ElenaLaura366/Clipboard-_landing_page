@@ -87,14 +87,11 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: var(--Grayish_Blue);
 }
 
 h1{
     color: var(--Dark_Grayish_Blue);
-}
-
-p{
-    color: var(--Grayish_Blue);
 }
 
 header{
@@ -136,8 +133,7 @@ header p{
     color: white;
     text-decoration: none;
     border-radius: 2rem;
-    padding: 0.5rem 1.5rem;
-    font-size: 15px;
+    padding: 0.7rem 1.4rem;
     font-weight: 600;
 }
 
@@ -280,7 +276,7 @@ header p{
     grid-column-gap: 32px;
     grid-row-gap: 0px;
     width: 100%;
-    padding: 5rem 10rem;
+    padding: 5rem;
 }
 
 .google { 
@@ -315,4 +311,44 @@ header p{
     height: 3rem;
 }
 
-/* centreaza logourile*/
+.google, .hp, .microsoft, .imb, .vector-graphics {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clipboard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4rem 0 10rem;
+}
+
+.clipboard p{
+    max-width: 60ch;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 100%;
+    background: var(--Grayish_Blue);
+    color: var(--Dark_Grayish_Blue);
+}
+
+.logo_footer { 
+    grid-area: 1 / 1 / 2 / 2; 
+}
+
+.links { 
+    grid-area: 1 / 2 / 2 / 5; 
+}
+
+.media { 
+    grid-area: 1 / 5 / 2 / 6; 
+}
